@@ -2,6 +2,7 @@
 #define TABLE_H
 
 #include <stdio.h>
+#define MAXVAL 100
 
 typedef struct
 {
