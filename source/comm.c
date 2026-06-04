@@ -31,7 +31,7 @@ void scanc(char *arr, char *flag, char *text)
         {
             while(*arr != '\0')
             {
-                *text++ == *arr++;
+                *text++ = *arr++;
                 if(*arr == '\0')
                 {
                     *text = '\0';
