@@ -7,6 +7,6 @@ void getnode(int nid);
 
 void addnode(int node_number);
 
-void scanc(char *arr, char *flag, int *number);
+void scanc(char *arr, char *flag, char *text);
 
 #endif

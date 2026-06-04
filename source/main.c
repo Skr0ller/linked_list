@@ -14,8 +14,8 @@ int main()
         {
             /* flag */
             char arg;
-            /* node's number */
-            int number;
+            /* a text that a node will contain */ 
+            char text[MAXVAL];
 
             scanc(argsbuffer, &arg, &number);
 

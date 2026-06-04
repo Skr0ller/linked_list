@@ -7,7 +7,7 @@
 typedef struct
 {
     int id;
-    int number;
+    char s_text[MAXVAL];
     struct inode *next;
 } inode;
 
