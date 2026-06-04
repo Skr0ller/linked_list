@@ -1,5 +1,5 @@
-#ifndef TABLE_H
-#define TABLE_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
 #define MAXVAL 100
@@ -8,7 +8,7 @@ typedef struct
 {
     int id;
     int number;
-    int *next;
+    struct inode *next;
 } inode;
 
 

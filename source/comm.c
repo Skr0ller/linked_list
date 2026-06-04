@@ -13,5 +13,9 @@ void addnode(int node_number)
 
 void scanc(char *arr, char *flag, int *number)
 {
-    while
+    while(*arr == ' ')
+    {
+        if(*arr == '-')
+        
+    }
 }
