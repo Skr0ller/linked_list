@@ -5,9 +5,9 @@
 
 char argsbuffer[MAXVAL];
 
-char haeadnode[MAXVAL] = "head_node"
+char haead_node_text[MAXVAL] = "head_node"
 
-Node *head_node = addnode(haeadnode);
+Node *head_node = addnode(haead_node_text);
 
 int main()
 {
@@ -24,12 +24,19 @@ int main()
 
             switch(arg)
             {
-                case 'g':
-                getnode(text); 
+                case 'a':
+                if(head_node->next == NULL)
+                {
+                    head_node->next = addnode(text);
+                } else{
+                    
+                }
+                head_node->next = addnode(text);
+                printf("Node id: %d\n", node_count); 
                 break;
 
-                case 'a':
-                addnode(text);
+                case 'g':
+                getnode(text);
                 break;
 
                 default:
