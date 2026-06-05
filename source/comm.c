@@ -1,14 +1,30 @@
 #include <stdio.h>
+#include <string.h>
+#include "main.h"
 #include "comm.h"
 
 void getnode(int nid)
 {
-
+    printf()
 }
 
-void addnode(int node_number)
+*inode addnode(char *node_text)
 {
-    
+    inode* newnode = (*inode)malloc(sizeof(inode));
+
+    if(newnode == NULL)
+    {
+        printf("Memory allocation error");
+        exit(1);
+    }
+
+    node_count++;
+
+    newnode->id = node_count;
+    strcpy(newnode->s_text, node_text);
+    newnode->next = NULL;
+
+    return newnode;
 }
 
 void scanc(char *arr, char *flag, char *text)

@@ -4,12 +4,16 @@
 #include <stdio.h>
 #define MAXVAL 100
 
-typedef struct
+int node_count = 0;
+
+typedef struct inode
 {
     int id;
     char s_text[MAXVAL];
     struct inode *next;
 } inode;
+
+
 
 
 

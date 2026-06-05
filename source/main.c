@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 #include "comm.h"
 
-int node_count = 0;
-
 char argsbuffer[MAXVAL];
+
+char haeadnode[MAXVAL] = "head_node"
+
+Node *head_node = addnode(haeadnode);
 
 int main()
 {
@@ -14,19 +17,19 @@ int main()
         {
             /* flag */
             char arg;
-            /* a text that a node will contain */ 
+            /* a text that a node will contain */
             char text[MAXVAL];
 
-            scanc(argsbuffer, &arg, &number);
+            scanc(argsbuffer, &arg, text);
 
             switch(arg)
             {
                 case 'g':
-                getnode(number); 
+                getnode(text); 
                 break;
 
                 case 'a':
-                addnode(number);
+                addnode(text);
                 break;
 
                 default:

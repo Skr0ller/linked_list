@@ -5,7 +5,7 @@
 
 void getnode(int nid);
 
-void addnode(int node_number);
+*inode addnode(char *node_text);
 
 void scanc(char *arr, char *flag, char *text);
 
