@@ -3,9 +3,22 @@
 #include "main.h"
 #include "comm.h"
 
-void getnode(int nid)
+void getnode(char *nid, inode *head_node)
 {
-    printf()
+    inode *current = head_node;
+
+    int nodeid = nid[0] - '0';
+
+    while(current != NULL)
+    {
+        if(current->id == nodeid)
+        {
+            printf(" Id: %d\nText: %s\n ", current->id, current->s_text);
+            return;
+        }
+        current = current->next;
+    }
+    printf();
 }
 
 *inode addnode(char *node_text)

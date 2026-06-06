@@ -7,7 +7,7 @@ char argsbuffer[MAXVAL];
 
 char haead_node_text[MAXVAL] = "head_node"
 
-Node *head_node = addnode(haead_node_text);
+inode *head_node = addnode(haead_node_text);
 
 int main()
 {
@@ -45,6 +45,5 @@ int main()
             }
         }
     }
-
     return 0;
 }

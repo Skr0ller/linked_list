@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-void getnode(int nid);
+void getnode(char *nid);
 
 *inode addnode(char *node_text);
 
