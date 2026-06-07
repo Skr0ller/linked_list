@@ -4,7 +4,7 @@
 #include <stdio.h>
 #define MAXVAL 100
 
-int node_count = 0;
+extern int node_count;
 
 typedef struct inode
 {

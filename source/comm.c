@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include "main.h"
 #include "comm.h"
@@ -21,7 +22,7 @@ void getnode(char *nid, inode *head_node)
     printf();
 }
 
-*inode addnode(char *node_text)
+inode *addnode(char *node_text)
 {
     inode* newnode = (*inode)malloc(sizeof(inode));
 
