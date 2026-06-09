@@ -19,12 +19,11 @@ void getnode(char *nid, inode *head_node)
         }
         current = current->next;
     }
-    printf();
 }
 
 inode *addnode(char *node_text)
 {
-    inode* newnode = (*inode)malloc(sizeof(inode));
+    inode* newnode = (inode*)malloc(sizeof(inode));
 
     if(newnode == NULL)
     {

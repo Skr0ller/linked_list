@@ -37,7 +37,7 @@ int main()
                 break;
 
                 case 'g':
-                getnode(text);
+                getnode(text, head_node);
                 break;
 
                 default:
