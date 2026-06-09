@@ -42,9 +42,6 @@ inode *addnode(char *node_text)
 
 void scanc(char *arr, char *flag, char *text)
 {
-    while(*arr++ == ' ')
-    ;
-
     while(*arr != '\0')
     {
         if(*arr == '-')
@@ -68,5 +65,6 @@ void scanc(char *arr, char *flag, char *text)
                 }
             }
         }
+        *arr++;
     }
 }

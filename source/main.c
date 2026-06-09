@@ -35,6 +35,7 @@ int main()
                     head_node->next = addnode(text);
                     printf("Node id: %d\n", node_count);    
                 }
+                printf("Node has been creatd!\nNode id: %d\n", node_count);
                 break;
 
                 case 'g':
