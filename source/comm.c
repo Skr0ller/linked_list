@@ -8,7 +8,12 @@ void getnode(char *nid, inode *head_node)
 {
     inode *current = head_node;
 
-    int nodeid = nid[0] - '0';
+    while(*nid == ' ')
+    {
+        nid++;
+    }
+
+    int nodeid = atoi(nid);
 
     while(current != NULL)
     {

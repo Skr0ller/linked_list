@@ -34,7 +34,8 @@ int main()
                     head_node->next = addnode(text);
                     current = head_node->next;
                 } else{
-                    current->next = addnode(text);    
+                    current->next = addnode(text);
+                    current = current->next;   
                 }
                 printf("Node has been creatd!\nNode id: %d\n", node_count);
 
