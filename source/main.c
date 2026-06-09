@@ -22,6 +22,7 @@ int main()
 
             scanc(argsbuffer, &arg, text);
 
+            
             inode *head_node = addnode(head_node_text);
 
             switch(arg)
