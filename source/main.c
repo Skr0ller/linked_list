@@ -13,6 +13,8 @@ int node_count = 0;
 
 int main()
 {
+    inode *head_node = addnode(head_node_text);
+
     while(1)
     {
         if(fgets(argsbuffer, sizeof(argsbuffer), stdin) != NULL)
@@ -23,8 +25,6 @@ int main()
             char text[MAXVAL];
 
             scanc(argsbuffer, &arg, text);
-            
-            inode *head_node = addnode(head_node_text);
 
             switch(arg)
             {
@@ -38,7 +38,6 @@ int main()
                     current = current->next;   
                 }
                 printf("Node has been creatd!\nNode id: %d\n", node_count);
-
                 break;
 
                 case 'g':

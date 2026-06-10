@@ -10,10 +10,10 @@ void getnode(char *nid, inode *head_node)
 
     while(*nid == ' ')
     {
-        nid++;
+        *nid++;
     }
 
-    int nodeid = atoi(nid);
+    int nodeid = *nid - '0';
 
     while(current != NULL)
     {
