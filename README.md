@@ -1,4 +1,4 @@
-# linked list
+# Linked list
 
 Realisation of a linked list
 
@@ -8,10 +8,10 @@ Realisation of a linked list
 
 -a text_that_node_will_contin
 
--a node1
+Example: -a node1
 
 ### Show content of a node
 
 -g id_of_a_node
 
--g 2
+Example: -g 2
