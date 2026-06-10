@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include "main.h"
-#include "comm.h"
+#include "../include/main.h"
+#include "../include/comm.h"
 
 char argsbuffer[MAXVAL];
 
