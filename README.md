@@ -6,7 +6,7 @@ Realisation of a linked list
 
 ### Create a node
 
--a text_that_node_will_contin
+-a text_that_node_will_contain
 
 Example: -a node1
 
