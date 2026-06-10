@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../include/main.h"
-#include "../include/comm.h"
+#include "include/main.h"
+#include "include/comm.h"
 
 void getnode(char *nid, inode *head_node)
 {
